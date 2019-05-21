@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:defaultValue="Ось X" >
+    <ListPreference 
+     android:id="@+id/listpref"
+     android:key="axis"
+     android:title="Ось измерения"
+     android:defaultValue="Ось X"
+     android:entries="@array/prefs"
+     android:entryValues="@array/prefs"
+    />
+<!-- 
+	<PreferenceScreen
+	   
+	   	android:title="Расположение"
+     	android:src="@drawable/logo4" 
+     	>
+    
+ 	</PreferenceScreen>
+ -->
+
+    
+<CheckBoxPreference
+ android:key="chbmenu"
+
+ android:defaultValue="true"
+ android:title="Фильтр гравитации">
+</CheckBoxPreference>
+
+ </PreferenceScreen>
+ 
+ <!--android:summary="Фильтр силы притяжения" -->

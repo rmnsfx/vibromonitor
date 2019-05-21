@@ -1,0 +1,80 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF"
+    android:screenOrientation="portrait">
+    
+                  
+<TextView
+       		android:id="@+id/textView1"
+       		android:text="ВИБРОМОНИТОР"
+       		android:gravity="center"
+       		android:textSize="25sp"
+       		android:textColor="#FFFFFF"
+       		android:textStyle="bold"  
+       		android:layout_height="50dp"
+        	android:layout_width="match_parent"
+        	
+        	android:background="#008b95"
+       		/>
+
+
+<RelativeLayout
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_weight="1">
+     
+</RelativeLayout>
+ 
+<!-- 
+<TextView
+       		android:id="@+id/textView2"
+       		android:gravity="center"
+       		android:textSize="17sp"
+       		android:textColor="#008b95"
+       		android:textStyle="bold"  
+       		android:layout_height="20dp"
+        	android:layout_width="match_parent"
+        	android:layout_margin="3sp"
+        	android:background="#FFFFFF"	/>
+<TextView
+       		android:id="@+id/textView3"
+       		android:gravity="center"
+       		android:textSize="17sp"
+       		android:textColor="#008b95"
+       		android:textStyle="bold"  
+       		android:layout_height="20dp"
+        	android:layout_width="match_parent"
+        	android:layout_margin="3sp"
+        	android:background="#FFFFFF"	/>
+ -->
+ 
+<ToggleButton
+       android:id="@+id/tglBtn"
+       android:layout_gravity="center"
+       android:textOn="ВЫКЛ"
+       android:textOff="ВКЛ"
+       android:layout_width="200sp"
+       android:layout_height="wrap_content"
+       android:text="ВКЛ"  />
+
+<ImageView
+        android:id="@+id/imageView1"
+        android:layout_marginTop="2sp"
+        android:padding="10sp"
+        android:gravity="center" 
+     	android:onClick="about_company"
+     	android:background="#008b95"
+     	android:src="@drawable/logo5" 
+     	android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+     	 />
+        
+
+</LinearLayout>
